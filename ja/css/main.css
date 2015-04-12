@@ -1,0 +1,522 @@
+body,html{
+/*	padding:0;*/
+/*    font: 13pt "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
+    margin: 0px;
+}
+
+main{
+    width: 100%;
+    box-shadow: 0px 0px 3px black;
+/*    position: relative;*/
+    z-index: 4;
+    min-width: 1250px;
+/*    margin-top: 75px;*/
+}
+
+textarea{
+    resize: none;
+}
+
+/*****************
+***** Header *****
+*****************/
+
+.header-img{
+    width: 1583px;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    display: block;
+}
+
+#container{
+    width: 1250px;
+    height: auto;
+    margin: 0px auto;
+	overflow:hidden;
+    padding-bottom: 30px;
+}
+
+#membership-form{
+    background-color: #c2d0f8;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    height: auto;
+}
+
+#scholarship-form{
+    background-color: #c2d0f8;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    height: auto;
+}
+
+/*****************
+** Main Content **
+*****************/
+
+#main-content{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 0 5% 0 0;
+    display: inline-block;
+}
+
+#main-content a:hover{
+    text-decoration: underline;
+}
+
+#main-content .event{
+    color: black;
+    font-weight: bold;
+}
+
+.next-event-title{
+    font-weight: normal;
+}
+
+.underline{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-top: -10px;
+}
+
+#next-event-container{
+    width: 1000px;
+    height: 450px;
+}
+
+#next-event-img{
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+#next-event-img-containter{
+    float: left;
+    width: 47%;
+}
+
+#next-event-details-container{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.new-para{
+    margin-top: 10px;
+    width: 260px;
+    overflow: hidden;
+}
+
+.new-para2{
+    margin-top: 20px; 
+}
+
+p.new-para2{
+    line-height: 180%;
+}
+
+p a{
+    color:rgb(6, 93, 170);
+}
+
+.main-content-item a{
+    color: rgb(6, 93, 170);
+}
+
+.upcoming-events-container{
+    width: 415px;
+    float: left;
+    margin-top: 20px;
+    height: 1100px;
+}
+
+#upcoming-events-container h3{
+    margin-bottom: 0px;
+}
+
+.upcoming-event{
+    margin-top: 50px;
+}
+
+#pres-greetings{
+    height: auto;
+    width: 400px;
+}
+
+.content-container{
+    margin-top: 20px;
+    height: 100%;
+    display: inline-block;
+}
+
+.main-content-description{
+    margin-left: 40px;
+    float: left;
+    width: 260px;
+}
+
+.main-content-item{
+    float: left;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+        
+}
+
+.main-content-item-img-container{
+    float: left;
+    width: 47%;
+    
+}
+
+.main-content-item-img{
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+#history{
+    margin-bottom: 100px;
+}
+
+#paypal-donate{
+    width: 400px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
+#paypal-container{
+    margin: 30px 0px;
+}
+
+#donate-possible{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-row{
+    width: 100%;
+    margin: 20px 0px;   
+}
+
+#membership-form h1{
+	font-size: 40pt;
+    font-weight: 100;
+}
+
+.dollars{
+    float: right;
+    height:50px;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
+
+#namekanji{
+    width: 180px;
+}
+
+#email{
+    width: 240px;
+}
+
+#mailingadd{
+    width: 430px;
+}
+
+#birthplace{
+    width: 205px;
+}
+
+.mem-fees{
+    margin-left: 76%;
+}
+
+.mem-type{
+    height:50px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    float: left;
+}
+
+#gift{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.giftdisp{
+    float: right;
+    height:50px;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
+
+.total{
+    float: right;
+    height:50px;
+    width: auto;
+    color: black;
+    font-size: 48pt;
+    font-weight: 100;
+    margin-top: -120px;
+}
+
+.total-lab{
+    width: 200px; 
+}
+
+.radio-boxes{
+    margin: 0px auto;
+    width: 375px;
+}
+
+.imgright{
+    float: right;
+    margin: 20px 0px 15px 20px;
+}
+
+.imgleft{
+    float: left;
+    margin: 20px 15px 0px 20px;
+}
+
+.tax-deduct{
+    font-size: 12px;
+}
+
+#facebook-logo{
+    width: 700px;
+    height: auto;
+}
+
+.content-list li{
+    margin-top: 20px;
+}
+
+.pic-row{
+    width: 800px;
+    margin: 0px auto;
+    display: block;
+}
+
+.contact-container{
+    background-color: #c2d0f8;
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px 0px 20px 20px;
+    height: auto;
+}
+
+#issue-container{
+    margin-top: 20px;
+}
+
+#piccenter{
+    width: 390px;
+    margin: 0px auto;
+}
+
+#submit{
+    margin: 0px auto;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow: none;
+    background-color: #759aff;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+
+.info{
+    margin-bottom: 50px;
+}
+
+#submit:hover{
+    background-color: #86a6ff;
+}
+
+summary{
+    clear: both;
+    float: left;
+    width: 859px;
+    margin: 5px 0px;
+}
+
+details p{
+    margin: 5px 0px;
+}
+
+/*****************
+**** Side Bar ****
+*****************/
+
+#sidebar{
+    width: 24%;
+    height:100%;
+    float: left;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#calendar-container{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#calendar{
+    width: inherit;
+    height: auto;
+}
+
+#donate-butt-container{
+    height: 100px;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+#donate-butt{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#donate-text{
+    font: 20pt Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+}
+
+#donate-card-container{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#donate-cards{
+    width: inherit;
+    height: auto;
+}
+
+#social-feed{
+    height: auto;
+    width: 100%;
+}
+
+#social-butt-container{
+    width: 230px;
+    padding-left: 50px;
+}
+
+.social-butt{
+    height: 100px;
+    width: 100px:
+}
+
+/*****************
+***** Footer *****
+*****************/
+
+footer{
+    background-color:rgb(6, 93, 170);
+    width: 100%;
+	min-width: 1250px;
+    position: relative;
+    color:white;
+    padding-top: 20px;
+}
+
+p{
+    margin: 0px;
+}
+
+#copyright{
+    background-color: rgb(23,69,117);
+    width: 100%;
+    text-align:center;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+#copyright span{   
+    display: inline-block;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#sitemap table{
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#sitemap td{
+    padding: 5px;
+    width: 250px;
+    font-size: 13px;
+    overflow: hidden;
+    height: auto;
+}
+
+#sitemap td a{
+    padding: 5px 0px 5px 5px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: background-color .25s;
+    -webkit-transition: background-color .25s;
+    -moz-transition: background-color .25s;
+}
+
+#sitemap td a:hover{
+    padding: 5px 0px 5px 5px;
+    background-color: rgb(2, 73, 141);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#sitemap{
+    width:100%;
+    padding-bottom: 15px;
+}
+
+#rightfcontent{
+    width: 48%;
+    float: right;
+    display: block;
+    position: relative;
+}
+
+.fillf{
+    margin-top: 3px;
+}
+
+#contact{
+    width: 48%;
+    float: right;
+    position: relative;
+    margin-top: -7%;
+}

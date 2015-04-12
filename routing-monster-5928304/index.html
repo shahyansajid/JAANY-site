@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Processing... | Japanese American Association of New York</title>
+		
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="While the beneficiaries of our services have changed over the years, our services have also evolved to meet those needs. Throughout, we remain true to our original mission to serve the Japanese American and Japanese Community." name="description">
+		<meta property="og:title" content="Japanese Association of New York" />
+		<meta property="og:description" content="While the beneficiaries of our services have changed over the years, our services have also evolved to meet those needs. Throughout, we remain true to our original mission to serve the Japanese American and Japanese Community." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://jaany.org/" />
+		<meta property="og:image" content="/images/simple_logo.png" />
+		
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="/css/main.css" type="text/css" />
+		<link rel="stylesheet" href="/css/fullcalendar.css" />
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/js/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/lib/moment.min.js"></script>
+		<script type="text/javascript" src="/js/fullcalendar.js"></script>
+		<script type="text/javascript" src="/js/gcal.js"></script>
+		<script type="text/javascript" src="/js/script.js"></script>
+        <script type="application/javascript">
+            $(document).ready(function() {
+                console.log("TESTING " + member);
+                $.post("/php/sendEmail.php",
+                   {
+                       emailTo: emailTo,
+                       refnum: refn,
+                       membership: member,
+                       prefix: pre,
+                       firstname: first,
+                       midinit: mid,
+                       lastname: last,
+                       namekanji: name,
+                       emailadd: emaila,
+                       address: addre,
+                       city: cit,
+                       state: stat,
+                       zip: zipc,
+                       emergencyfullname: emergencyfull,
+                       emergencyphone: emergencyph,
+                       emergencyaddress: emergencyadd,
+                       emergencyjapanname: emergencyjapann,
+                       emergencyjapanphone: emergencyjapanphone,
+                       dobd: dobd,
+                       dobm: dobm,
+                       doby: doby,
+                       religion: religion,
+                       status: status,
+                       birthplace: birthplace,
+                       hobbies: hobbies,
+                       referred: referred,
+                       gift: gift,
+                       payment: payment
+                   }
+                  ).done(function(){
+//                    window.location.replace("/confirmation/");
+                    
+                
+                });
+            });
+            
+        </script>
+    </head>
+</html>

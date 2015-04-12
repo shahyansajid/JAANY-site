@@ -1,0 +1,7 @@
+div#popup span#popup_time:before {
+	content: '時間: ';
+}
+
+div#popup span#popup_location:before {
+	content: '場所: ';
+}
